@@ -1,0 +1,46 @@
+===== EVALUATION SUMMARY =====
+Model: meta-llama/Llama-3.2-3B-Instruct
+Sample size: 50
+Device: mps
+Perplexity: 84.0578
+
+Generation Results:
+
+Configuration: greedy
+ROUGE-1: 0.3318
+ROUGE-2: 0.1612
+ROUGE-L: 0.2388
+Avg generation time: 5.9762 seconds
+Tokens per second: 21.42
+
+===== SAMPLE RESPONSES =====
+
+Sample 1:
+Generated: assistant
+
+Based on the input sentence, we can generate the following RDF triplets:
+
+1. (AFC Ajax, isGroundOf, Sportpark De Toekomst)
+2. (AFC Ajax, ha...
+Ground truth: [
+  ["AFC Ajax (amateurs)", "has ground", "Sportpark De Toekomst"],
+  ["Ajax Youth Academy", "plays at", "Sportpark De Toekomst"]
+]...
+
+Sample 2:
+Generated: assistant
+
+Midsummer House is a moderately priced Chinese eatery near All Bar One with a 3-star rating....
+Ground truth: Midsummer House is a moderately priced Chinese restaurant with a 3/5 customer rating, located near All Bar One....
+
+Sample 3:
+Generated: assistant
+
+I think the correct answer is C. 
+
+Here's why: 
+
+She was rubbing a needle on a cotton ball, which is like getting ink ready. Then she put t...
+Ground truth: C. She then dips the needle in ink and using the pencil to draw a design on her leg, rubbing it off with a rag in the end. In this option, she is cont...
+
+Evaluation complete!

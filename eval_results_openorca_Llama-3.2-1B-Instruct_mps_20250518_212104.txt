@@ -1,0 +1,41 @@
+===== EVALUATION SUMMARY =====
+Model: meta-llama/Llama-3.2-1B-Instruct
+Sample size: 50
+Device: mps
+Perplexity: 63.6978
+
+Generation Results:
+
+Configuration: greedy
+ROUGE-1: 0.2962
+ROUGE-2: 0.1299
+ROUGE-L: 0.2073
+Avg generation time: 4.0974 seconds
+Tokens per second: 31.24
+
+===== SAMPLE RESPONSES =====
+
+Sample 1:
+Generated: assistant
+
+To convert the given sentence to RDF triplets, we need to identify the subject, predicate, and object in the sentence. Here's a Python code...
+Ground truth: [
+  ["AFC Ajax (amateurs)", "has ground", "Sportpark De Toekomst"],
+  ["Ajax Youth Academy", "plays at", "Sportpark De Toekomst"]
+]...
+
+Sample 2:
+Generated: assistant
+
+The Midsummer House restaurant in London offers Chinese cuisine at moderate prices with a 3-star rating and a short walk from All Bar One....
+Ground truth: Midsummer House is a moderately priced Chinese restaurant with a 3/5 customer rating, located near All Bar One....
+
+Sample 3:
+Generated: assistant
+
+Let me explain what happens next:
+
+She is making a special kind of hairdo, and she is using a needle to make a design on her leg. She is us...
+Ground truth: C. She then dips the needle in ink and using the pencil to draw a design on her leg, rubbing it off with a rag in the end. In this option, she is cont...
+
+Evaluation complete!

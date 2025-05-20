@@ -1,0 +1,46 @@
+===== EVALUATION SUMMARY =====
+Model: meta-llama/Llama-3.2-3B-Instruct
+Sample size: 50
+Device: mps
+Perplexity: 41.3744
+
+Generation Results:
+
+Configuration: greedy
+Exact Match Accuracy: 0.0000
+Function Name Match Accuracy: 0.0000
+Avg generation time: 4.3125 seconds
+Tokens per second: 29.68
+
+===== SAMPLE RESPONSES =====
+
+Sample 1 (ID: item_0):
+Generated: assistant
+
+area = 0.5 * base * height
+area = 0.5 * 10 * 5
+area = 25
+Ground truth: 
+Result: ✗ NO MATCH
+
+Sample 2 (ID: item_1):
+Generated: factorial(5)
+Ground truth: 
+Result: ✗ NO MATCH
+
+Sample 3 (ID: item_2):
+Generated: sqrt(4^2 + 5^2)
+Ground truth: 
+Result: ✗ NO MATCH
+
+Sample 4 (ID: item_3):
+Generated: quadratic_formula(a=1, b=-3, c=2)
+Ground truth: 
+Result: ✗ NO MATCH
+
+Sample 5 (ID: item_4):
+Generated: 4(2)
+Ground truth: 
+Result: ✗ NO MATCH
+
+Evaluation complete!
